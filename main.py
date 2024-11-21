@@ -1,4 +1,4 @@
-from .ui import PartCountingApp
+from ui import PartCountingApp
 import tkinter as tk
 
 def main():

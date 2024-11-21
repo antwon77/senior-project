@@ -46,7 +46,7 @@ def scan_new_part(frame):
         print("No contours detected for the part.")
         return None, None
 
-def add_part_to_database(part_name, part_id, company_name, min_area, max_area):
+
     """
     Add a new part to the part database.
 

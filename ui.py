@@ -2,11 +2,11 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 import json
 import cv2
-from .part_scanner import scan_and_save_part, load_part_database
-from .contour_detection import detect_contours, count_parts, draw_contours, add_count_to_image
-from .pre_processing import preprocess_image, apply_canny_edge_detection
-from .config import CONFIG
-from .capture import capture_video, read_frame, release_video
+from part_scanner import scan_and_save_part, load_part_database
+from contour_detection import detect_contours, count_parts, draw_contours, add_count_to_image
+from pre_processing import preprocess_image, apply_canny_edge_detection
+from config import CONFIG
+from capture import capture_video, read_frame, release_video
 
 
 class PartCountingApp:
